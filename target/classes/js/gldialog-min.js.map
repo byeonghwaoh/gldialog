@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"/dummy-file-path",
+"lineCount":1,
+"mappings":"AAAAA,GAAAC,EAAA,CAAMC,QAAN,CAAAC,MAAA,CAAsB,QAAQ,EAAG,CAC7BC,OAAAC,IAAA,CAAY,gCAAZ,CAEAC,OAAA,CAAO,QAAS,EAAG,CACf,IAAIN,GAAAO,UAAJ,CAAkB,CACdC,GAAI,kBADU,CAEdC,QAAS,yBAFK,CAAlB,CADe,CAAnB,CAH6B,CAAjC;",
+"sources":["input.js"],
+"names":["AJS","$","document","ready","console","log","jQuery","FormPopup","id","trigger"]
+}

@@ -1,0 +1,20 @@
+<section role="dialog" id="lpopup-dialog" class="aui-layer aui-dialog2 aui-dialog2-medium" open="">
+    <div class="aui-dialog2-content">
+        <p><aui-badge class="aui-badge-primary">GOOGLE</aui-badge> go to the Google Web Site. ...</p>
+    </div>
+    <footer class="aui-dialog2-footer">
+        <div class="aui-dialog2-footer-actions">
+            <button id="go-link-btn1" class="aui-button aui-button-primary">GO</button>
+            <button class="aui-button aui-button-link cancel" resolved="">Cancel</button>
+        </div>
+    </footer>
+</section>
+
+<script type="application/javascript">
+    AJS.$("#go-link-btn1").click(function (e) {
+        console.log(">>>> btn clicked ...")
+        e.preventDefault();
+        window.open("https://www.google.com");
+        location.reload(true);
+    });
+</script>

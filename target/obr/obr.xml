@@ -1,0 +1,71 @@
+<repository lastmodified='20230104023037.255'>
+  <resource id='bh.plex.gldialog/1.0.0' symbolicname='bh.plex.gldialog' presentationname='gldialog' uri='gldialog-1.0.0.jar' version='1.0.0'>
+    <description>This is the bh.plex:gldialog plugin for Atlassian JIRA.</description>
+    <size>214281</size>
+    <documentation>http://www.example.com/</documentation>
+    <capability name='bundle'>
+      <p n='symbolicname' v='bh.plex.gldialog'/>
+      <p n='presentationname' v='gldialog'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='bh.plex.api'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=bh.plex.api))' extend='false' multiple='false' optional='false'>Import package bh.plex.api</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.security.request))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.security.request</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.web.action))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.web.action</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.plugin.spring.scanner.annotation.export))' extend='false' multiple='false' optional='false'>Import package com.atlassian.plugin.spring.scanner.annotation.export</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.plugin.spring.scanner.annotation.imports))' extend='false' multiple='false' optional='false'>Import package com.atlassian.plugin.spring.scanner.annotation.imports</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.sal.api))' extend='false' multiple='false' optional='false'>Import package com.atlassian.sal.api</require>
+    <require name='package' filter='(&amp;(package=javax.inject))' extend='false' multiple='false' optional='false'>Import package javax.inject</require>
+    <require name='package' filter='(&amp;(package=org.slf4j))' extend='false' multiple='false' optional='false'>Import package org.slf4j</require>
+  </resource>
+  <resource id='bh.plex.gldialog/1.0.1' symbolicname='bh.plex.gldialog' presentationname='gldialog' uri='gldialog-1.0.1.jar' version='1.0.1'>
+    <description>This is the bh.plex:gldialog plugin for Atlassian JIRA.</description>
+    <size>214429</size>
+    <documentation>http://www.example.com/</documentation>
+    <capability name='bundle'>
+      <p n='symbolicname' v='bh.plex.gldialog'/>
+      <p n='presentationname' v='gldialog'/>
+      <p n='version' t='version' v='1.0.1'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='bh.plex.api'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=bh.plex.api)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package bh.plex.api;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.security.request))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.security.request</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.web.action))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.web.action</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.plugin.spring.scanner.annotation.export))' extend='false' multiple='false' optional='false'>Import package com.atlassian.plugin.spring.scanner.annotation.export</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.plugin.spring.scanner.annotation.imports))' extend='false' multiple='false' optional='false'>Import package com.atlassian.plugin.spring.scanner.annotation.imports</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.sal.api))' extend='false' multiple='false' optional='false'>Import package com.atlassian.sal.api</require>
+    <require name='package' filter='(&amp;(package=javax.inject))' extend='false' multiple='false' optional='false'>Import package javax.inject</require>
+    <require name='package' filter='(&amp;(package=org.slf4j))' extend='false' multiple='false' optional='false'>Import package org.slf4j</require>
+  </resource>
+  <resource id='bh.plex.gldialog/1.0.2' symbolicname='bh.plex.gldialog' presentationname='gldialog' uri='gldialog-1.0.2.jar' version='1.0.2'>
+    <description>This is the bh.plex:gldialog plugin for Atlassian JIRA.</description>
+    <size>215281</size>
+    <documentation>http://www.example.com/</documentation>
+    <capability name='bundle'>
+      <p n='symbolicname' v='bh.plex.gldialog'/>
+      <p n='presentationname' v='gldialog'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='bh.plex.api'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=bh.plex.api)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package bh.plex.api;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.security.request))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.security.request</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.web.action))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.web.action</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.plugin.spring.scanner.annotation.export))' extend='false' multiple='false' optional='false'>Import package com.atlassian.plugin.spring.scanner.annotation.export</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.plugin.spring.scanner.annotation.imports))' extend='false' multiple='false' optional='false'>Import package com.atlassian.plugin.spring.scanner.annotation.imports</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.sal.api))' extend='false' multiple='false' optional='false'>Import package com.atlassian.sal.api</require>
+    <require name='package' filter='(&amp;(package=javax.inject))' extend='false' multiple='false' optional='false'>Import package javax.inject</require>
+    <require name='package' filter='(&amp;(package=org.slf4j))' extend='false' multiple='false' optional='false'>Import package org.slf4j</require>
+  </resource>
+</repository>

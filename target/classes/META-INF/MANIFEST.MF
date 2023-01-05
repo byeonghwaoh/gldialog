@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Atlassian-Build-Date: 2023-01-04T14:30:35+0900
+Atlassian-Plugin-Key: bh.plex.gldialog
+Bnd-LastModified: 1672810236739
+Build-Jdk: 11.0.11
+Built-By: obyeonghwa
+Bundle-Description: This is the bh.plex:gldialog plugin for Atlassian JI
+ RA.
+Bundle-DocURL: http://www.example.com/
+Bundle-ManifestVersion: 2
+Bundle-Name: gldialog
+Bundle-SymbolicName: bh.plex.gldialog
+Bundle-Vendor: Example Company
+Bundle-Version: 1.0.2
+Created-By: Apache Maven Bundle Plugin
+Export-Package: bh.plex.api;version="1.0.0"
+Import-Package: bh.plex.api;version="[1.0,2)",com.atlassian.jira.securit
+ y.request,com.atlassian.jira.web.action,com.atlassian.plugin.spring.sca
+ nner.annotation.export,com.atlassian.plugin.spring.scanner.annotation.i
+ mports,com.atlassian.sal.api,javax.inject,org.slf4j
+Originally-Created-By: Apache Maven Bundle Plugin
+Spring-Context: *
+Tool: Bnd-3.5.0.201709291849
